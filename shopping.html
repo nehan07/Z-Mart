@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z Mart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo"><img src="https://img.freepik.com/premium-vector/blue-white-z-logo-with-blue-z-black-background_853558-3919.jpg"width="250"height="250"></div>
+        <nav>
+            <ul>
+                <li><button><a href="shopping.html">Shopping Card</a></button></li>
+                <li><button><a href="#about">About Us</a></button></li>
+                <li><button><a href="#contact">Contact</a></button></li>
+            </ul>
+        </nav>
+    </header>
+    <header>
+    
+        <div class="search-box">
+            <input type="text" placeholder="Search products...">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+        <div class="user-actions">
+            <a href="cart.html">Login/Sign up</a>
+            <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+    </header>
+
+    <!-- Categories Navigation -->
+    <nav class="categories">
+        <h3>
+            <button><a href="chips.html">Chips</a></button>
+            <button><a href="cookies.html">Cookies</a></button>
+            <button><a href="chocolate.html">Chocolate</a></button>
+           </h3>
+    </nav>
+    <main>
+        <h1>Featured Products</h1>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://m.media-amazon.com/images/I/41y2Rx0OYBL.jpg"width="120"height="120" alt="Product 1">
+                <h2>Alpenliebe Candy</h2>
+                <p>Tk.90</p>
+                <button class="add-to-cart" data-name="Alpenliebe Candy" data-price="90">Add to Cart</button>
+                
+            </div>
+            <div class="product-card">
+                <img src="https://images.othoba.com/images/thumbs/0672676_snickers-chocolate-12g.jpeg"width="160"height="160" alt="Product 2">
+                <h2>Snickers 12g</h2>
+                <p>Tk.23</p>
+                <button class="add-to-cart" data-name="Snickers 12g" data-price="23">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://images.othoba.com/images/thumbs/0680787_all-time-choco-chips-cookies-16gm.webp"width="160"height="160" alt="Product 3">
+                <h2>Choco Cookies</h2>
+                <p>Tk.150</p>
+                <button class="add-to-cart" data-name="Choco Cookies" data-price="150">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://images.othoba.com/images/thumbs/0254912_poppers-corn-coconut-25gm_300.jpeg" width="124"height="124" alt="Product 4">
+                <h2>Poppers Chips</h2>
+                <p>Tk.20</p>
+                <button class="add-to-cart" data-name="Poppers Chips" data-price="20">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://dokanpat.com.bd/wp-content/uploads/2022/03/haque-mr-cookie-biscuits-1.jpg"width="120"height="120" alt="Product 5">
+                <h2>Goldmark Cookies</h2>
+                <p>Tk.80</p>
+                <button class="add-to-cart" data-name="Goldmark Cookies" data-price="80">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr0OS0rVEpj9egvoQql7anL-_wrx_yXspf3g&s" alt="Product 6">
+                <h2>Dairy Milk</h2>
+                <p>Tk.250</p>
+                <button class="add-to-cart" data-name="Dairy Milk" data-price="250">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://images.othoba.com/images/thumbs/0709944_pran-zeros-24gm.png" alt="Product 7">
+                <h2>Zeros Chips</h2>
+                <p>Tk.15</p>
+                <button class="add-to-cart" data-name="Zeros Chips" data-price="15">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://images.deliveryhero.io/image/darkstores/nv-global-catalog/bd/4207b757-f5ed-4edd-9097-9b0799ca24ab.jpg?height=480" alt="Product 8">
+                <h2>Magica Cookies</h2>
+                <p>Tk.250</p>
+                <button class="add-to-cart" data-name="Magica Cookies" data-price="250">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSndH9UV0s8c1BAmXBsEhPUACuIJWghcv_XtQ&s" alt="Product 9">
+                <h2>Sun Chips</h2>
+                <p>Tk.25</p>
+                <button class="add-to-cart" data-name="Sun Chips" data-price="25">Add to Cart</button>
+            </div>
+        </div>
+    </main>
+    <div class="cart">
+        <h2>Shopping Cart</h2>
+        <div id="cart-items">
+          <p>Your cart is empty.</p>
+        </div>
+        <div class="cart-total" id="cart-total">Total: Tk.0</div>
+        <button id="payment-btn"><a href="cart.html">Pay Now</a></button>
+      </div>
+
+    <footer>
+        <p>&copy; 2025 Z Mart. All rights reserved.</p>
+    </footer>
+    <script src="scrip.js"></script>
+</body>
+</html>
